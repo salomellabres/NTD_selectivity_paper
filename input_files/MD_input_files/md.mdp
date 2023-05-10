@@ -76,7 +76,7 @@ optimize-fft             = yes
 tcoupl                   = v-rescale                ; modified Berendsen thermostat
 nsttcouple               = -1
 nh-chain-length          = 10
-tc-grps                  = Protein Water_and_ions   ; change to Protein_MOL Water_and_ions if ligand present
+tc-grps                  = Protein Water_and_ions   ; change "Protein" to "Protein_MOL" for wt+ligand MDs or "Protein_CHL" for mutants+ligand MDs
 tau_t                    = 0.1     0.1              ; time constant, in ps
 ref_t                    = 300     300              ; reference temperature, one for each group, in K
 
