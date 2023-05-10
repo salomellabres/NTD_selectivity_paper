@@ -1,0 +1,21 @@
+TI simulation
+ &cntrl
+   imin = 0, nstlim = 1000000, irest = 1, ntx = 5, dt = 0.002,
+   ntt = 3, temp0 = 300.0, gamma_ln = 2.0, ig = -1,
+   ntc = 2, ntf = 1,
+   ntb = 1,
+   ntp = 0, tautp = 10.0,
+   ioutfm = 1, 
+   ntwe = 100, ntwx = 1000, ntpr = 1000, ntwr = 5000, ntxo = 2,
+
+   icfe = 1, clambda = $LAMBDA, scalpha = 0.5, scbeta = 12.0,
+   logdvdl = 1,
+   ifmbar = 1, bar_intervall = 100, mbar_states = 21, mbar_lambda= 0.00, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90, 0.95, 1.00,
+   timask1 = ':1', timask2 = ':2',
+   ifsc=1, scmask1='$MOL1-MASK', scmask2='$MOL2-MASK'
+
+ /
+ &ewald
+ / 
+
+
